@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 number = random.randint(1, 100)
@@ -22,6 +21,4 @@ while True:
         print("number greater.")
     else:
         print("number less.")
-=======
 
->>>>>>> 626c2920b7513ec9c63bc4ec5d0bfb190d363b49
