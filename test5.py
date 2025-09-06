@@ -1,3 +1,4 @@
+
 from math import isqrt
 
 while True:
@@ -38,4 +39,5 @@ while True:
 
     else:
         print("Invalid input")
+
 
