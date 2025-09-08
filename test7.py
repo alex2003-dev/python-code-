@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 text = input("Enter text: ")
 text = text.lower()
 text = text.replace('.', ' ')
@@ -6,18 +6,7 @@ text = text.replace(',', ' ')
 text = text.replace('!', ' ')
 text = text.replace('?', ' ')
 
-=======
-<<<<<<< HEAD
 
-=======
-text = input("Enter text: ")
-text = text.lower()
-text = text.replace('.', ' ')
-text = text.replace(',', ' ')
-text = text.replace('!', ' ')
-text = text.replace('?', ' ')
-
->>>>>>> 460ef79 (conflict in test7.py)
 stop_words = ["and", "the", "is", "in", "at", "to", "a", "of", "on", "for", "it", "with", "as", "was", "but"]
 
 words = text.split()
@@ -46,9 +35,8 @@ for item in word_items:
     print(item[0], ":", item[1])
     count = count + 1
     if count == 10:
-<<<<<<< HEAD
+
         break
-=======
-        break
->>>>>>> f177cb9 (Word Frequency Analyzer)
->>>>>>> 460ef79 (conflict in test7.py)
+
+     
+
