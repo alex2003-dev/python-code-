@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 contacts = {}
 
 def is_valid(name, phone):
@@ -48,4 +46,4 @@ def menu():
             print("Wrong choice.")
 
 menu()
->>>>>>> 460ef79 (conflict in test7.py)
+
