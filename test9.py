@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 catalog = {"apple": 1.5, "banana": 0.8, "milk": 2.0, "bread": 2.5}
 cart = []
 
@@ -25,4 +22,3 @@ remove("milk")
 
 print("Cart:", cart)
 print("Total:", total())
->>>>>>> 639a049 (Shopping Cart Simulator)
