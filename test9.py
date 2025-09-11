@@ -1,3 +1,4 @@
+
 catalog = {"apple": 1.5, "banana": 0.8, "milk": 2.0, "bread": 2.5}
 cart = []
 
