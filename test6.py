@@ -9,5 +9,4 @@ def multiplication_table():
                 print(f"{value:>4}", end="")
         print()
 
-
 multiplication_table()

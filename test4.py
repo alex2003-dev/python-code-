@@ -21,4 +21,3 @@ while True:
         print("number greater.")
     else:
         print("number less.")
-

@@ -1,11 +1,9 @@
-
 text = input("Enter text: ")
 text = text.lower()
 text = text.replace('.', ' ')
 text = text.replace(',', ' ')
 text = text.replace('!', ' ')
 text = text.replace('?', ' ')
-
 
 stop_words = ["and", "the", "is", "in", "at", "to", "a", "of", "on", "for", "it", "with", "as", "was", "but"]
 
@@ -35,8 +33,4 @@ for item in word_items:
     print(item[0], ":", item[1])
     count = count + 1
     if count == 10:
-
         break
-
-     
-

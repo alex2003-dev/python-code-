@@ -1,4 +1,3 @@
-
 contacts = {}
 
 def is_valid(name, phone):
@@ -31,7 +30,7 @@ def list_contacts():
 def menu():
     while True:
         print("\n1 - Add, 2 - Search, 3 - Delete, 4 - List, 0 - Exit")
-        choice = input("Choose: ").strip()
+        choice = input("Choose: ").strip()  
         if choice == '1':
             add_contact()
         elif choice == '2':
@@ -46,4 +45,3 @@ def menu():
             print("Wrong choice.")
 
 menu()
-
