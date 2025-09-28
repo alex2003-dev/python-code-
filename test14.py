@@ -1,4 +1,3 @@
-<<<<<<< HEAD
  grades = []
     try:
         with open(filename, newline='', encoding='utf-8') as csvfile:
@@ -11,6 +10,3 @@
             for row in reader:
                 print("Read row:", row)
                 if len(row) < 2:
-=======
-
->>>>>>> 9b79fe72586b2ac86c42afbff5ad8ae1958a16d8
