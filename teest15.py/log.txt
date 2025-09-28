@@ -1,0 +1,4 @@
+INFO Starting app
+WARN Low memory
+ERROR Failed to load
+INFO Done
